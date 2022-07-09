@@ -1,0 +1,27 @@
+.completeTasks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3{
+        margin: 30px 0 10px;
+    }
+
+    ul{
+       
+        div{
+            position: relative;
+
+            img {
+                position: absolute;
+                height: 90%;
+                width: 20px;
+                display: block;
+                right: -20px;
+                top: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
